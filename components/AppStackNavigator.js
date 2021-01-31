@@ -1,7 +1,7 @@
 import React from 'react';
 import { createStackNavigator } from 'react-navigation-stack';
 
-import ExchangeScreen from '../screens/BookDonateScreen';
+import ExchangeScreen from '../screens/ExchangeScreen';
 import RecieverDetailsScreen  from '../screens/RecieverDetailsScreen';
 
 
@@ -22,6 +22,6 @@ export const AppStackNavigator = createStackNavigator({
   }
 },
   {
-    initialRouteName: 'BookDonateList'
+    initialRouteName: 'ItemExchangeList'
   }
 );
